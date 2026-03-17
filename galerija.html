@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija - CatCare - Centar za mačke</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="CatCare logo" height="35">
+                    <span>CatCare</span>
+                </a>
+            </div>
+
+            <button class="nav-toggle" id="navToggle">
+                ☰
+            </button>
+
+            <nav id="navMenu">
+                <a href="index.html">Naslovnica</a>
+                <a href="onama.html">O nama</a>
+                <a href="usluge.html">Usluge</a>
+                <a href="galerija.html" class="active">Galerija</a>
+                <a href="zanimljivosti.html">Zanimljivosti</a>
+                <a href="kontakt.html">Kontakt</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <section class="gallery-section">
+
+        <h1>Galerija naših mačaka</h1>
+
+        <p class="uvod">
+            U našem centru svakodnevno brinemo o mnogim mačkama.
+        </p>
+        <p class="uvod">Pogledajte neke od naših preslatkih maza i trenutke koje provodimo zajedno.
+        </p>
+
+        <div class="gallery">
+            <img src="images/cat1.jpg" alt="Mačke koje se igraju" data-large="images/cat1.jpg">
+            <img src="images/cat3.jpg" alt="Mačka koja spava" data-large="images/cat3.jpg">
+            <img src="images/cat4.jpg" alt="Mačke koje čekaju vlasnike" data-large="images/cat4.jpg">
+            <img src="images/cat5.jpg" alt="Mačka koja se uređuje" data-large="images/cat5.jpg">
+            <img src="images/cat2.jpg" alt="Mačke na penjalici" data-large="images/cat2.jpg">
+            <img src="images/cat6.jpg" alt="Mačka koja odmara" data-large="images/cat6.jpg">
+        </div>
+
+        <div id="lightbox">
+            <img src="" alt="Prikazana mačka">
+        </div>
+
+        <p class="end">
+            Svaka mačka u našem centru dobiva puno pažnje, igre i ljubavi.
+        </p>
+        <p class="end">
+            Naš cilj je da se svaka mačka osjeća sigurno, sretno i opušteno dok boravi kod nas!
+        </p>
+        <p><a href="kontakt.html">Jednim klikom rezerviraj termin kod nas za svoga ljubimca!</a></p>
+
+    </section>
+
+
+    <footer>
+        <p>© 2026 CatCare – Centar za mačke</p>
+    </footer>
+
+    <button id="scrollTopBtn">⬆</button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
